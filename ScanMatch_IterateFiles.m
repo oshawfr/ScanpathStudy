@@ -14,7 +14,8 @@ EXT = '.csv';
 
 filelist = dir([FOLDER_PATH,'/*',EXT]);
 
-% Creation of the GUI and set up of (hyper)parameters
+% Creation of the GUI 
+% To change the hyperparameters, it's easier to do so direct on the definition of the struct
 ScanMatchInfo = ScanMatch_Struct(); 
 
 scoreTable = table(); % Table which contains the scores
